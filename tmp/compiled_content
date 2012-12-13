@@ -1,4 +1,4 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"/
+{:	data{I"/stylesheet/:ET{:default{:	lastI"2
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
@@ -8,7 +8,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 body {
-  background: #fff;
+  background: #fbfbfb;
 }
 
 #main a:hover {
@@ -131,7 +131,7 @@ footer {
   color: #ddd;
 };T:raw@
 :pre@
-I"/;T{;{	;I"�	<!DOCTYPE HTML>
+I"/;T{;{	;I"�	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -166,7 +166,7 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
 <br/>
 <h1>Welcome !</h1>
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
 
 <ul>
   <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
@@ -189,7 +189,7 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
     </div>
   </body>
 </html>
-;T;	I"�<div>
+;T;	I"<div>
   <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
 </div>
 <br/>
@@ -197,7 +197,7 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
 <br/>
 <h1>Welcome !</h1>
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
 
 <ul>
   <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
@@ -205,7 +205,7 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
 </ul>
 
 <p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;T;
-I"�<div>
+I"<div>
   <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
 </div>
 <br/>
@@ -213,7 +213,7 @@ I"�<div>
 <br/>
 <h1>Welcome !</h1>
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
 
 <ul>
   <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
