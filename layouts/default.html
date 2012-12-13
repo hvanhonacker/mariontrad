@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Marion Engelbrecht, traductrice - <%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <div id="w1">
+      <div id="w2">
+        <div id="top-bar"></div>
+        <div id="header">
+          <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
+          <nav id="nav-top">
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Présentation</a></li>
+              <li><a href="#">Devis</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="main">
+          <%= yield %>
+        </div>
+      </div>
+      <footer>
+        <nav id="alt-nav">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Présentation</a></li>
+            <li><a href="#">Devis</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
