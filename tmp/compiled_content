@@ -1,5 +1,5 @@
-{:	data{I"/stylesheet/:ET{:default{:	lastI"2
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+{:	data{
+I"/stylesheet/:ET{:default{:	lastI"r/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 * {
@@ -17,7 +17,7 @@ body {
 }
 
 #w1 {
-  width: 860px;
+  max-width: 860px;
   margin: auto;
   -webkit-box-shadow: 0 0 1em #ccc;
   -moz-box-shadow: 0 0 1em #ccc;
@@ -30,34 +30,29 @@ body {
 }
 
 #top-bar {
-  width: 100%;
   height: 10px;
   background-color: #111;
 }
 
-#header h1 {
+header h1 {
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 35px;
-  float: left;
-  display: block;
-  clear: right;
 }
 
-#header h1 #hname {
+header h1 #hname {
   font-variant: small-caps;
 }
 
-#header h1 #hjob {
+header h1 #hjob {
   font-family: 'Great Vibes', cursive;
 }
 
 #nav-top {
-  float: right;
-  display: block;
+  text-align: right;
   clear: left;
   margin-bottom: 20px;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px;
 }
 
 #nav-top ul li {
@@ -79,6 +74,10 @@ body {
   -webkit-transition: all .3s ease 0s;
   -moz-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
+}
+
+#main-pic {
+  margin-bottom: 30px;
 }
 
 #main {
@@ -107,117 +106,366 @@ body {
   font-size: 14px;
   margin-bottom: 18px;
   line-height: 18px;
+  text-align: justify;
 }
 
 strong {
   font-weight: bold;
 }
 
-footer {
+footer#bottom-footer {
   background-color: #111;
-  height: 150px;
   padding: 30px 30px 30px 30px;
 }
-#alt-nav ul li {
-  padding: 5px 5px 5px 5px;
+
+footer#bottom-footer .footer-col {
+  width: 100px;
+  height: 120px;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 1px dotted #333;
+  padding: 30px;
 }
 
-#alt-nav ul li a {
+footer#bottom-footer .first {
+  border-left: 0;
+}
+
+footer#bottom-footer h1 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+footer#bottom-footer ul li {
+  padding: 5px 0 5px 0;
+}
+
+footer#bottom-footer ul li a {
   text-decoration: none;
   color: #333;
 }
 
-#alt-nav ul li a:hover {
-  color: #ddd;
+footer#bottom-footer ul li a:hover {
+  color: #555;
+}
+
+/* Divers */
+blockquote {
+  margin: 1.5em 0 1.5em 2.50em;
+  padding: 0.75em 0.5em 0.75em 1em;
+}
+
+blockquote:before {
+    color: #999999;
+    content: "“";
+    display: block;
+    font: italic 400%/1 Cochin,Georgia,"Times New Roman",serif;
+    height: 0;
+    margin-left: -.95em;
 };T:raw@
 :pre@
-I"/;T{;{	;I"�	<!DOCTYPE HTML>
+I"/;T{;{	;I"�	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Marion Engelbrecht, traductrice - Accueil</title>
+    <title>Marion Engelbrecht, traductrice - anglais, français, espagnol - Accueil</title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.4.2">
   </head>
   <body>
     <div id="w1">
       <div id="w2">
         <div id="top-bar"></div>
-        <div id="header">
+        <header>
           <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
           <nav id="nav-top">
             <ul>
-              <li><a href="#">Accueil</a></li>
-              <li><a href="#">Présentation</a></li>
-              <li><a href="#">Devis</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="main-pic">
+          <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
+        </div>
+        <section id="main">
+          <blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
+
+<h1>Bienvenue,<h1>
+<p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
+
+<p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>
+        </section>
+      </div>
+      <footer id="bottom-footer">
+        <div class="footer-col first">
+          <h1>Navigation</h1>
+          <nav>
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
             </ul>
           </nav>
         </div>
-        <div id="main">
-          <div>
-  <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
-</div>
-<br/>
-<br/>
-<br/>
-<h1>Welcome !</h1>
-
-<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
-
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
-
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
-        </div>
-      </div>
-      <footer>
-        <nav id="alt-nav">
+        <div class="footer-col">
+          <h1>Liens</h1>
           <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Présentation</a></li>
-            <li><a href="#">Devis</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+              <li><a href="/">LinkedIn</a></li>
+              <li><a href="/competences/">Viadeo</a></li>
+              <li><a href="/devis/">Proz</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
       </footer>
     </div>
   </body>
 </html>
-;T;	I"<div>
-  <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
-</div>
-<br/>
-<br/>
-<br/>
-<h1>Welcome !</h1>
+;T;	I"�<blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
 
-<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+<h1>Bienvenue,<h1>
+<p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
 
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
+<p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>;T;
+I"�<blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;T;
-I"<div>
-  <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
-</div>
-<br/>
-<br/>
-<br/>
-<h1>Welcome !</h1>
+<h1>Bienvenue,<h1>
+<p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
 
-<p>You’ve just created a new <a href="#">nanoc site</a>. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+<p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>;T:	post@I"/devis/;T{;{	;I"�<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Marion Engelbrecht, traductrice - anglais, français, espagnol - Demande de devis</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <meta name="generator" content="nanoc 3.4.2">
+  </head>
+  <body>
+    <div id="w1">
+      <div id="w2">
+        <div id="top-bar"></div>
+        <header>
+          <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
+          <nav id="nav-top">
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="main-pic">
+          <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
+        </div>
+        <section id="main">
+          <h1>Devis</h1>
 
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
+Le devis est gratuit est sans engagement. Il vous sera adressé dans les 24 heures (ouvrées).
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;T:	post@:versioni
+Nom
+Prénom
+Entreprise
+Adresse
+Email
+Téléphone
+Message
+Joindre fichier
+Envoyer
+        </section>
+      </div>
+      <footer id="bottom-footer">
+        <div class="footer-col first">
+          <h1>Navigation</h1>
+          <nav>
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h1>Liens</h1>
+          <ul>
+              <li><a href="/">LinkedIn</a></li>
+              <li><a href="/competences/">Viadeo</a></li>
+              <li><a href="/devis/">Proz</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+;T;	I"�<h1>Devis</h1>
+
+Le devis est gratuit est sans engagement. Il vous sera adressé dans les 24 heures (ouvrées).
+
+Nom
+Prénom
+Entreprise
+Adresse
+Email
+Téléphone
+Message
+Joindre fichier
+Envoyer;T;
+I"�<h1>Devis</h1>
+
+Le devis est gratuit est sans engagement. Il vous sera adressé dans les 24 heures (ouvrées).
+
+Nom
+Prénom
+Entreprise
+Adresse
+Email
+Téléphone
+Message
+Joindre fichier
+Envoyer;T;@I"/competences/;T{;{	;I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Marion Engelbrecht, traductrice - anglais, français, espagnol - A New Item</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <meta name="generator" content="nanoc 3.4.2">
+  </head>
+  <body>
+    <div id="w1">
+      <div id="w2">
+        <div id="top-bar"></div>
+        <header>
+          <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
+          <nav id="nav-top">
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="main-pic">
+          <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
+        </div>
+        <section id="main">
+          Hi, I'm a new item!
+        </section>
+      </div>
+      <footer id="bottom-footer">
+        <div class="footer-col first">
+          <h1>Navigation</h1>
+          <nav>
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h1>Liens</h1>
+          <ul>
+              <li><a href="/">LinkedIn</a></li>
+              <li><a href="/competences/">Viadeo</a></li>
+              <li><a href="/devis/">Proz</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+;T;	I"Hi, I'm a new item!;T;
+I"Hi, I'm a new item!;T;@I"
+/faq/;T{;{	;I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Marion Engelbrecht, traductrice - anglais, français, espagnol - A New Item</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <meta name="generator" content="nanoc 3.4.2">
+  </head>
+  <body>
+    <div id="w1">
+      <div id="w2">
+        <div id="top-bar"></div>
+        <header>
+          <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
+          <nav id="nav-top">
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="main-pic">
+          <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
+        </div>
+        <section id="main">
+          Hi, I'm a new item!
+        </section>
+      </div>
+      <footer id="bottom-footer">
+        <div class="footer-col first">
+          <h1>Navigation</h1>
+          <nav>
+            <ul>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/competences/">Compétences</a></li>
+              <li><a href="/devis/">Devis</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h1>Liens</h1>
+          <ul>
+              <li><a href="/">LinkedIn</a></li>
+              <li><a href="/competences/">Viadeo</a></li>
+              <li><a href="/devis/">Proz</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+        <div class="footer-col">
+          <h1>Test</h1>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+;T;	I"Hi, I'm a new item!;T;
+I"Hi, I'm a new item!;T;@ :versioni
