@@ -1,5 +1,5 @@
 {:	data{
-I"/stylesheet/:ET{:default{:	lastI"�/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+I"/stylesheet/:ET{:default{:	lastI"l/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 * {
@@ -119,6 +119,7 @@ strong {
 footer#bottom-footer {
   background-color: #111;
   padding: 30px 30px 30px 30px;
+  position: relative;
 }
 
 footer#bottom-footer .footer-col {
@@ -128,6 +129,7 @@ footer#bottom-footer .footer-col {
   vertical-align: top;
   border-left: 1px dotted #333;
   padding: 30px;
+  color: #333;
 }
 
 footer#bottom-footer .first {
@@ -154,12 +156,21 @@ footer#bottom-footer ul li a:hover {
 
 /* Divers */
 blockquote {
+  min-width: 350px;
+  color: #555;
   margin: 1.5em 0 1.5em 2.50em;
-  padding: 0.75em 0.5em 0.75em 1em;
+  padding: 0.75em 0.5em 0.75em 1em;*
+  font-style: italic;
+}
+
+blockquote footer {
+  color: #333;
+  font-style: normal;
+  margin-top: 5px;
 }
 
 blockquote:before {
-    color: #999999;
+    color: #555;
     content: "“";
     display: block;
     font: italic 400%/1 Cochin,Georgia,"Times New Roman",serif;
@@ -167,7 +178,7 @@ blockquote:before {
     margin-left: -.95em;
 };T:raw@
 :pre@
-I"/;T{;{	;I"�	<!DOCTYPE HTML>
+I"/;T{;{	;I"�	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -196,9 +207,7 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
           <img src="http://fakeimg.pl/800x200/ccc/fff/?text=Marion, working">
         </div>
         <section id="main">
-          <blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
-
-<h1>Bienvenue,<h1>
+          <h1>Bienvenue,<h1>
 <p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
 
 <p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>
@@ -225,27 +234,25 @@ I"/;T{;{	;I"�	<!DOCTYPE HTML>
             </ul>
         </div>
         <div class="footer-col">
-          <h1>Test</h1>
-        </div>
-        <div class="footer-col">
-          <h1>Test</h1>
+          <h1>Email</h1>
+          contact@mariontrad.com
+          <blockquote>
+            La langue de l'Europe, c'est la traduction
+            <footer>&#8212; Umberto Eco</footer>
+          </blockquote>
         </div>
       </footer>
     </div>
   </body>
 </html>
-;T;	I"�<blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
-
-<h1>Bienvenue,<h1>
+;T;	I"U<h1>Bienvenue,<h1>
 <p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
 
 <p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>;T;
-I"�<blockquote>La langue de l'Europe, c'est la traduction<footer>&#8212; Umberto Eco</footer></blockquote>
-
-<h1>Bienvenue,<h1>
+I"U<h1>Bienvenue,<h1>
 <p>Je m'appelle Marion et je suis traductrice indépendante anglais/espagnol/français. Je suis prête à vous accompagner dans vos besoins en traduction.</p>
 
-<p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>;T:	post@I"/devis/;T{;{	;I"�<!DOCTYPE HTML>
+<p>N'hésitez pas m'envoyer vos documents à traduire dans votre demande de devis. Si vous le souhaitez, vous pouvez consulter le détail de mes compétences.</p>;T:	post@I"/devis/;T{;{	;I"<	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -310,10 +317,12 @@ Envoyer
             </ul>
         </div>
         <div class="footer-col">
-          <h1>Test</h1>
-        </div>
-        <div class="footer-col">
-          <h1>Test</h1>
+          <h1>Email</h1>
+          contact@mariontrad.com
+          <blockquote>
+            La langue de l'Europe, c'est la traduction
+            <footer>&#8212; Umberto Eco</footer>
+          </blockquote>
         </div>
       </footer>
     </div>
@@ -344,7 +353,7 @@ Email
 Téléphone
 Message
 Joindre fichier
-Envoyer;T;@I"/competences/;T{;{	;I"<!DOCTYPE HTML>
+Envoyer;T;@I"/competences/;T{;{	;I"�<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -397,10 +406,12 @@ Envoyer;T;@I"/competences/;T{;{	;I"<!DOCTYPE HTML>
             </ul>
         </div>
         <div class="footer-col">
-          <h1>Test</h1>
-        </div>
-        <div class="footer-col">
-          <h1>Test</h1>
+          <h1>Email</h1>
+          contact@mariontrad.com
+          <blockquote>
+            La langue de l'Europe, c'est la traduction
+            <footer>&#8212; Umberto Eco</footer>
+          </blockquote>
         </div>
       </footer>
     </div>
@@ -408,7 +419,7 @@ Envoyer;T;@I"/competences/;T{;{	;I"<!DOCTYPE HTML>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
 I"Hi, I'm a new item!;T;@I"
-/faq/;T{;{	;I"<!DOCTYPE HTML>
+/faq/;T{;{	;I"�<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -461,10 +472,12 @@ I"Hi, I'm a new item!;T;@I"
             </ul>
         </div>
         <div class="footer-col">
-          <h1>Test</h1>
-        </div>
-        <div class="footer-col">
-          <h1>Test</h1>
+          <h1>Email</h1>
+          contact@mariontrad.com
+          <blockquote>
+            La langue de l'Europe, c'est la traduction
+            <footer>&#8212; Umberto Eco</footer>
+          </blockquote>
         </div>
       </footer>
     </div>
