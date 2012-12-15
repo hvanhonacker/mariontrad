@@ -65,6 +65,9 @@ header h1 #hjob {
   -webkit-transition: all .3s ease 0s;
   -moz-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
 }
 
 #nav-top ul li a:hover {
