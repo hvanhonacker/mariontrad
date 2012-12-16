@@ -115,13 +115,12 @@ strong {
   font-weight: bold;
 }
 
-footer#bottom-footer {
+footer {
   background-color: #111;
   padding: 30px 30px 30px 30px;
-  position: relative;
 }
 
-footer#bottom-footer .footer-col {
+footer .footer-col {
   width: 100px;
   height: 120px;
   display: inline-block;
@@ -131,25 +130,25 @@ footer#bottom-footer .footer-col {
   color: #333;
 }
 
-footer#bottom-footer .first {
+footer .first {
   border-left: 0;
 }
 
-footer#bottom-footer h1 {
+footer h1 {
   color: #555;
   margin-bottom: 15px;
 }
 
-footer#bottom-footer ul li {
+footer ul li {
   padding: 5px 0 5px 0;
 }
 
-footer#bottom-footer ul li a {
+footer ul li a {
   text-decoration: none;
   color: #333;
 }
 
-footer#bottom-footer ul li a:hover {
+footer ul li a:hover {
   color: #555;
 }
 
@@ -166,6 +165,7 @@ blockquote footer {
   color: #333;
   font-style: normal;
   margin-top: 5px;
+  padding: 0;
 }
 
 blockquote:before {
