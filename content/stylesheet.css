@@ -188,3 +188,13 @@ blockquote:before {
   border-radius: 15px;
   text-align: center;
 }
+
+form {
+  margin: 30px;
+}
+
+form input {
+  width: 250px;
+  padding: 10px;
+}
+
