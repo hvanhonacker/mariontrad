@@ -176,6 +176,8 @@ blockquote:before {
   margin-left: -.95em;
 }
 
+/* Accueil */
+
 #welcome-zone {
   font-size: 17px;
   font-family: 'Ubuntu', sans-serif;
@@ -189,12 +191,27 @@ blockquote:before {
   text-align: center;
 }
 
+/* Devis */
+
 form {
   margin: 30px;
 }
 
-form input {
-  width: 250px;
+input, label {
+  display: block;
   padding: 10px;
+  margin: 10px 10px 10px 10px;
 }
 
+input {
+  width: 300px;
+}
+
+#message {
+  width: 500px;
+}
+
+.form-col {
+  display: inline-block;
+  vertical-align: top;
+}

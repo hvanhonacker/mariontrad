@@ -7,9 +7,14 @@ title: Demande de devis
 Le devis est gratuit est sans engagement. Il vous sera adressé dans les 24 heures (ouvrées).
 
 <form>
-  <input type="text" id="nom" placeholder="Nom / Entreprise" required /><br/>
-  <input type="email" id="email" placeholder="Email" required /><br/>
-  <input type="file" id="file" accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" /><br/>
+  <div class="form-col">
+	<input type="text" id="nom" placeholder="Nom / Entreprise" required />
+	<input type="email" id="email" placeholder="Email" required />
+  </div>
+  <div id="file-zone" class="form-col">
+    <label for="file">Joindre un document (pdf, doc, docx, txt &lt; 5mo)</label>
+  	<input type="file" id="file" accept=".txt,.pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+  </div>
   <input type="text" id="message" placeholder="Message" required /><br/>
   <input type="submit" value="Envoyer" />
 </form>
