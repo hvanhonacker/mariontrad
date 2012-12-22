@@ -17,6 +17,19 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/normalize/' do
+  # don’t filter or layout
+end
+
+compile '/html5shiv/' do
+  # don’t filter or layout
+end
+
+compile '/html5shiv-printshiv/' do
+  # don’t filter or layout
+end
+
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -28,6 +41,18 @@ end
 
 route '/stylesheet/' do
   '/style.css'
+end
+
+route '/normalize/' do
+  '/normalize.css'
+end
+
+route '/html5shiv/' do
+  '/html5shiv.js'
+end
+
+route '/html5shiv-printshiv/' do
+  '/html5shiv-printshiv.js'
 end
 
 route '*' do

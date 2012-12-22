@@ -1,20 +1,29 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>Marion Engelbrecht, traductrice - anglais, français, espagnol - <%= @item[:title] %></title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/normalize.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/style.css" media="all">
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+    <meta name="description" content="Marion Engelbrecht, traductrice freelance en anglais, espagnol et français">
+
+    <!-- Include the HTML5 shiv and shiv print polyfills for Internet Explorer browsers 8 and below -->
+    <!--[if lt IE 9]>
+      <script src="/html5shiv.js" media="all"></script>
+      <script src="/html5shiv-printshiv.js" media="print"></script>
+    <![endif]-->
   </head>
   <body>
     <div id="w1">
-      <div id="w2">
+      <header role="banner" id="w2">
         <div id="top-bar"></div>
         <header>
           <h1><span id="hname">Marion Engelbrecht</span><span id="hjob">, traductrice</span></h1>
-          <nav id="nav-top">
+          <nav id="nav-top" role="navigation">
             <ul>
               <li><a href="/">Accueil</a></li>
               <li><a href="/competences/">Compétences</a></li>
@@ -29,7 +38,7 @@
         <section id="main">
           <%= yield %>
         </section>
-      </div>
+      </header>
       <footer>
         <div class="footer-col first">
           <h1>Navigation</h1>
