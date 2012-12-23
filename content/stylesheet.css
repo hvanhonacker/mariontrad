@@ -110,6 +110,28 @@ header h1 #hjob {
   text-align: justify;
 }
 
+em {
+  font-style: italic;
+}
+
+#faq em {
+  margin-top: 36px;
+  margin-bottom: 18px;
+  display: block;
+}
+
+#main ul li {
+  display:  block;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 20px;
+}
+
+
+#main ul li:before {
+  content: '- ';
+}
+
 strong {
   font-weight: bold;
 }
