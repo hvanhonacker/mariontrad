@@ -29,6 +29,9 @@ compile '/html5shiv-printshiv/' do
   # don’t filter or layout
 end
 
+compile '/sitemap/' do
+  # don’t filter or layout
+end
 
 compile '*' do
   if item.binary?
@@ -53,6 +56,10 @@ end
 
 route '/html5shiv-printshiv/' do
   '/html5shiv-printshiv.js'
+end
+
+route '/sitemap/' do
+  '/sitemap.xml'
 end
 
 route '*' do
