@@ -186,7 +186,7 @@ blockquote {
   font-style: italic;
 }
 
-blockquote footer {
+blockquote div.quote-sig {
   color: #444;
   font-style: normal;
   margin-top: 5px;
