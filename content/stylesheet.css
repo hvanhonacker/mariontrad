@@ -151,6 +151,10 @@ footer .footer-col {
   color: #444;
 }
 
+span.hidd3n { 
+  display: none; 
+}
+
 footer .first {
   border-left: 0;
 }
