@@ -22,10 +22,10 @@ body {
   -webkit-box-shadow: 0 0 1em #ccc;
   -moz-box-shadow: 0 0 1em #ccc;
   box-shadow: 0 0 1em #ccc;
+  background: #fff;
 }
 
 #w2 {
-  background: #fff;
   padding: 0 30px 0 30px;
 }
 
@@ -151,8 +151,8 @@ footer .footer-col {
   color: #444;
 }
 
-span.hidd3n { 
-  display: none; 
+span.hidd3n {
+  display: none;
 }
 
 footer .first {
