@@ -101,7 +101,8 @@ header h1 #hjob {
 
 #main h1 {
   font-size: 25px;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 #main p {
