@@ -203,6 +203,11 @@ blockquote:before {
   margin-left: -.95em;
 }
 
+#copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
 /* Accueil */
 
 #welcome-zone {
